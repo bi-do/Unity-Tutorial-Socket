@@ -1,0 +1,15 @@
+public enum PROTOCOL : short
+{
+    CHAT_MSG_REQ = 1,
+    CHAT_MSG_ACK,
+
+    MATCH_REQ,
+    MATCH_SUCCESS_ACK,
+    MATCH_FAIL_ACK,
+
+    PLACE_STONE_REQ,
+
+    BOARD_UPDATE_ACK,
+    TURN_UPDATE_ACK,
+    GAME_OVER_ACK,
+}
